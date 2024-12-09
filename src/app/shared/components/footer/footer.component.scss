@@ -1,6 +1,48 @@
 .footer {
-  bottom: 0;
   width: 100%;
-  text-align: center;
+  color: #ffffff;
   padding: 1rem 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    .footer-section {
+      flex: 1;
+
+      &.contact {
+        text-align: left;
+      }
+
+      &.rights {
+        text-align: center;
+      }
+
+      &.social-icons {
+        text-align: right;
+
+        .icon {
+          font-size: 1.5rem;
+          color: #ffffff;
+          margin: 0 1rem;
+          transition: color 0.3s;
+
+          &:hover {
+            color: #ffc107;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-link {
+    color: #ffffff;
+    text-decoration: none;
+
+    &:hover {
+      color: #ffc107;
+    }
+  }
 }
