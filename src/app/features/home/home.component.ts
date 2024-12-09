@@ -6,8 +6,6 @@ import { InfiniteAnimationSerpentComponent } from '../../shared/components/Infin
   standalone: true,
   imports: [InfiniteAnimationSerpentComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
-export class HomeComponent {
-
-}
+export class HomeComponent {}
